@@ -1,0 +1,11 @@
+.score-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.score-container form {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  align-items: center;
+}

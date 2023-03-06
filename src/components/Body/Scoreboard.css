@@ -1,0 +1,25 @@
+.scoreboard-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 2;
+  color: black;
+}
+
+.scoreboard-container ul {
+  list-style: none;
+}
+
+.scoreboard-container .card {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.scoreboard-container .card div {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}

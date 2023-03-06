@@ -1,0 +1,26 @@
+.intro {
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+button {
+  border-radius: 10px;
+  width: fit-content;
+  background: #23837f;
+  color: white;
+  border: none;
+  padding: 1em 1.25em;
+  box-shadow: 5px 4px 17px -1px rgba(35, 131, 127, 0.89);
+  -webkit-box-shadow: 5px 4px 17px -1px rgba(35, 131, 127, 0.89);
+  -moz-box-shadow: 5px 4px 17px -1px rgba(35, 131, 127, 0.89);
+  cursor: pointer;
+}
+
+button:focus {
+  box-shadow: 0px 1px 12px -1px rgba(35, 131, 127, 0.89);
+  -webkit-box-shadow: 0px 1px 12px -1px rgba(35, 131, 127, 0.89);
+  -moz-box-shadow: 0px 1px 12px -1px rgba(35, 131, 127, 0.89);
+}

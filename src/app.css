@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+.app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+button {
+  font-size: 0.85rem;
+}
+
+input {
+  font-size: 0.75rem;
+  padding: 0.45em;
+}
+
+span {
+  font-size: 1rem;
+}
+
+.time {
+  color: white;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 950px) {
+  html {
+    font-size: 16px;
+  }
+
+  .card {
+    padding: 1.75em 2.25em;
+    margin: 0 40px;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+  }
+
+  .score-container {
+    left: 50%;
+    transform: translate(-58%, -50%);
+  }
+  .score-container p {
+    font-size: 1.15rem;
+  }
+
+  .score-container label,
+  input,
+  button {
+    font-size: 1rem;
+  }
+
+  .score-container form {
+    gap: 1em;
+  }
+
+  .header-container {
+    padding: 2em 4em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header-container {
+    padding: 2em 2em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 14px;
+  }
+
+  .card {
+    padding: 1em 0.9em;
+    margin: 20px;
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+
+  .score-container {
+    top: 50%;
+    transform: translate(-56%, -50%);
+    text-align: center;
+  }
+
+  .score-container form {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .score-container p {
+    font-size: 1.15rem;
+  }
+
+  .score-container label,
+  input,
+  button {
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,13 @@
+.card {
+  border: 1px solid #23837f;
+  border-radius: 20px;
+  padding: 2em 3em;
+  box-shadow: 11px 6px 14px 1px rgba(35, 131, 127, 0.75);
+  -webkit-box-shadow: 11px 6px 14px 1px rgba(35, 131, 127, 0.75);
+  -moz-box-shadow: 11px 6px 14px 1px rgba(35, 131, 127, 0.75);
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
